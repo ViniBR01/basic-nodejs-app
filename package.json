@@ -1,14 +1,19 @@
 {
-  "name": "hello-node",
+  "name": "Tailwind-trader-API",
   "version": "1.0.0",
-  "description": "my first app using node.js",
+  "description": "An HTTP API that will fetch items from Tailwind Traders database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js",
+    "test": "jest"
   },
   "keywords": [
-    "node"
+    "api",
+    "database"
   ],
-  "author": "Vini",
-  "license": "ISC"
+  "author": "Sam",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
